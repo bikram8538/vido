@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vido.com</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg nav-bg" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" alt="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- togglar icon -->
+          <span class="navbar-toggler-icon text-black nav-togglar">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Product
+              </a>
+              <ul class="dropdown-menu">
+                <!-- Main Editor Tools -->
+                <li>
+                  <h6 class="dropdown-header">Video Editing Tools</h6>
+                </li>
+                <li><a class="dropdown-item" href="#">Online Video Editor</a></li>
+                <li><a class="dropdown-item" href="#">AI Video Generator</a></li>
+                <li><a class="dropdown-item" href="#">Text to Video</a></li>
+                <li><a class="dropdown-item" href="#">Video Trimmer</a></li>
+                <li><a class="dropdown-item" href="#">Video Merger</a></li>
+                <li><a class="dropdown-item" href="#">Audio Enhancer</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+
+                <!-- Templates / Presets -->
+                <li>
+                  <h6 class="dropdown-header">Templates</h6>
+                </li>
+                <li><a class="dropdown-item" href="#">Social Media Templates</a></li>
+                <li><a class="dropdown-item" href="#">YouTube Video Templates</a></li>
+                <li><a class="dropdown-item" href="#">Reel / Short Templates</a></li>
+                <li><a class="dropdown-item" href="#">Slideshow Maker</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+
+                <!-- Plans & Apps -->
+                <li>
+                  <h6 class="dropdown-header">Platforms</h6>
+                </li>
+                <li><a class="dropdown-item" href="#">Web App</a></li>
+                <li><a class="dropdown-item" href="#">Mobile App</a></li>
+                <li><a class="dropdown-item" href="#">Desktop Version</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+
+                <!-- Premium or Business Tools -->
+                <li>
+                  <h6 class="dropdown-header">Premium Features</h6>
+                </li>
+                <li><a class="dropdown-item" href="#">AI Background Remover</a></li>
+                <li><a class="dropdown-item" href="#">Auto Subtitles</a></li>
+                <li><a class="dropdown-item" href="#">Brand Kit</a></li>
+                <li><a class="dropdown-item" href="#">Cloud Storage</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Use Csaes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Csaes 0.1</a></li>
+                <li><a class="dropdown-item" href="#">Csaes 0.2</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Other Csaes</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                AI
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Gemini 2.5 Pro</a></li>
+                <li><a class="dropdown-item" href="#">ChatGPT 5</a></li>
+                <li><a class="dropdown-item" href="#">GPT-4</a></li>
+                <li><a class="dropdown-item" href="#">GPT-4 Turbo</a></li>
+                <li><a class="dropdown-item" href="#">GPT-3.5</a></li>
+                <li><a class="dropdown-item" href="#">Claude 3</a></li>
+                <li><a class="dropdown-item" href="#">Claude 4</a></li>
+                <li><a class="dropdown-item" href="#">LLaMA 3</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Resources
+              </a>
+              <ul class="dropdown-menu">
+
+                <li>
+                  <h6 class="dropdown-header">Learning</h6>
+                </li>
+                <li><a class="dropdown-item" href="#">Getting Started Guide</a></li>
+                <li><a class="dropdown-item" href="#">Video Editing Tutorials</a></li>
+                <li><a class="dropdown-item" href="#">Tips & Tricks</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+
+                <!-- Tools & Assets -->
+                <li>
+                  <h6 class="dropdown-header">Tools & Assets</h6>
+                </li>
+                <li><a class="dropdown-item" href="#">Free Stock Videos</a></li>
+                <li><a class="dropdown-item" href="#">Royalty-Free Music</a></li>
+                <li><a class="dropdown-item" href="#">Video Templates</a></li>
+                <li><a class="dropdown-item" href="#">Transitions & Effects</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+
+                <!-- Help & Support -->
+                <li>
+                  <h6 class="dropdown-header">Support</h6>
+                </li>
+                <li><a class="dropdown-item" href="#">FAQs</a></li>
+                <li><a class="dropdown-item" href="#">Documentation</a></li>
+                <li><a class="dropdown-item" href="#">Community Forum</a></li>
+                <li><a class="dropdown-item" href="#">Contact Support</a></li>
+
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active text-black" aria-current="page" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav-btn">
+          <button type="button" class="btn btn-outline me-4 fs-6 px-4 py-3 rounded-3">Login</button>
+          <button type="button" class="btn btn-bg btn-md fs-6 px-4 py-3 rounded-3">
+            Try for free
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main part -->
+  <main>
+    <!-- banner part -->
+    <section class="banner">
+      <div class="container d-flex flex-column justify-content-center align-items-center vh-100 text-center">
+        <h1 class="w-100">
+          The online video editor that cuts <span class="fw-bolder">down editing time.</span>
+        </h1>
+        <p class="w-100 fw-light">
+          Edit your podcasts and videos right where you recorded them with our
+          AI-enhanced editor, and go from concept to content faster.
+        </p>
+
+        <div class="btn btn-bg btn-md mt-5 py-3 px-4 fw-bold">Get Satrted</div>
+
+        <figure class="mt-5">
+          <img src="./img/hero-front-part.png" alt="front part image" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- brand part -->
+    <section class="brand py-4 my-5">
+      <div class="container-fluid">
+        <div class="brand-box pt-5 row text-center">
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/1.png" alt="brand" />
+            </figure>
+          </a>
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/2.png" alt="brand" />
+            </figure>
+          </a>
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/3.png" alt="brand" />
+            </figure>
+          </a>
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/4.png" alt="brand" />
+            </figure>
+          </a>
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/5.png" alt="brand" />
+            </figure>
+          </a>
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/6.png" alt="brand" />
+            </figure>
+          </a>
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/7.png" alt="brand" />
+            </figure>
+          </a>
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/8.png" alt="brand" />
+            </figure>
+          </a>
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/9.png" alt="brand" />
+            </figure>
+          </a>
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/10.png" alt="brand" />
+            </figure>
+          </a>
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/11.png" alt="brand" />
+            </figure>
+          </a>
+          <a href="#" class="col-lg-1 col-md-2 col-sm-3 col-xs-4">
+            <figure>
+              <img src="./img/brand/9.png" alt="brand" />
+            </figure>
+          </a>
+        </div>
+
+        <figure class="text-center">
+          <img src="./img/brand/after-banner.png" alt="img" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- data part -->
+    <section class="data">
+      <div class="container">
+        <div class="row my-5 g-4">
+          <div class="col col-lg-6 col-12 col-md-6 rounded-5 bg-custom-1 p-4">
+            <p class="fs-1 text-bold">Your all-in-one online video editor</p>
+            <p class="fs-5">
+              Make your own video from scratch, edit it and add music — all in
+              one screen! Our seamless video editor allows you to manage the
+              added media easily with the help of multi-track timeline.
+            </p>
+          </div>
+          <div class="col col-lg-6 col-12 col-md-6 margin-top">
+            <img src="./img/data/1.png" alt="img" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <div class="col col-lg-5 col-12 col-md-6">
+            <img src="./img/data/2.png" alt="img2" class="img-fluid" />
+          </div>
+          <div class="col col-lg-7 col-12 col-md-6 bg-custom-2 rounded-5 p-4 margin-top">
+            <p class="fs-1 text-bold">Your all-in-one online video editor</p>
+            <p class="fs-5">
+              Make your own video from scratch, edit it and add music — all in
+              one screen! Our seamless video editor allows you to manage the
+              added media easily with the help of multi-track timeline.
+            </p>
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <div class="col col-12 col-md-6 bg-custom-3 p-5 rounded-5">
+            <p class="fs-1 text-bold">
+              Make picture-in-picture and split-screen videos
+            </p>
+            <p class="fs-5">
+              Make your own video from scratch, edit it and add music — all in
+              one screen! Our seamless video editor allows you to manage the
+              added media easily with the help of multi-track timeline.
+            </p>
+          </div>
+          <div class="col col-12 col-md-6 margin-top">
+            <img src="./img/data/3.png" alt="img3" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <div class="col col-12 col-md-6 bg-custom-4 rounded-5 py-5 px-4">
+            <p class="fs-1 text-bold">One-click editing with AI</p>
+
+            <ul>
+              <li class="fs-4">
+                Create videos on the web video editor with the help of our AI
+                video generator tools. Use our text-to-video app to generate
+                content from text prompts. Just type a description, and our AI
+                will produce a professional-quality, editable video.
+              </li>
+              <li class="fs-4">
+                Minimize re-takes and let our Al eye Contact tool instantly
+                redirect your eyes to the camera. Always look professional on
+                screen.
+              </li>
+              <li class="fs-4">
+                Minimize re-takes and let our Al eye Contact tool instantly
+                redirect your eyes to the camera. Always look professional on
+                screen.
+              </li>
+            </ul>
+          </div>
+          <div class="col col-12 col-md-6 margin-top">
+            <img src="./img/data/4.png" alt="img4" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- img part -->
+    <section class="img">
+      <div class="container">
+        <h2 class="fs-1 fw-bold text-center">
+          Bring out your creativity here
+        </h2>
+        <p class="text-center w-50 mx-auto fw-light">
+          We provide complete features and certainly no less competitive with
+          other video applications
+        </p>
+
+        <figure class="my-5">
+          <img src="./img/img-part.png" alt="img-part" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="testimonial common-padding">
+      <div class="container">
+        <div class="row justify-content-center my-5">
+          <div class="col col-md-12 col-lg-6">
+            <p class="text-uppercase">Testimonials</p>
+            <h2 class="fs-1 w-75 fw-bold mb-5">What people say about Us.</h2>
+
+            <div class="slider-icon">
+              <i class="fa-solid fa-circle me-4"></i>
+              <i class="fa-solid fa-circle me-4"></i>
+              <i class="fa-solid fa-circle"></i>
+            </div>
+
+          </div>
+
+          <div class="col col-md-12 col-lg-6">
+            <div class="position-relative testi-card-main">
+              <div class="testi-cards test-box1 p-5 rounded-4 py-4 px-5">
+                <p class="fw-normal">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's 
+                </p>
+                <p class="fw-semibold mb-0 mt-5">Mark wick</p>
+                <p class="fs-6">New York, USA</p>
+              </div>
+              <div class="testi-cards test-box2 rounded-4"></div>
+              <div class="testi-cards test-box3 rounded-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- free -->
+    <section class="free">
+      <div class="container">
+        <h2 class="fs-1 text-center w-50 mx-auto mb-5">
+          All-in-one, free
+          <span class="fw-bolder">video editing software</span>
+        </h2>
+        <div class="button d-flex justify-content-center">
+          <a href="#" class="btn btn-bg text-center py-3 px-4">Try for free</a>
+        </div>
+
+        <figure class="mt-5">
+          <img src="./img/free.png" alt="free-img" class="img-fluid" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section py-5">
+      <div class="container">
+        <!-- Header -->
+        <div class="text-center mb-5">
+          <h2 class="pricing-title">Pricing and Plan</h2>
+          <p class="price-subtitle">
+            Donec dignissim, odio ac imperdiet luctus, ante nisl accumsan
+            justo, et venenatis ante metus pellentesque sem.
+          </p>
+        </div>
+
+        <!-- Duration Toggler Buttons -->
+        <div class="text-center mb-5">
+          <div class="pricing-toggle">
+            <a href="#" class="toggle-btn active-btn text-decoration-none">MONTHLY</a>
+            <a href="#" class="toggle-btn text-decoration-none">YEARLY</a>
+          </div>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="row justify-content-center">
+          <!-- Free Plan -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="pricing-card free-plan py-5 px-1">
+              <div class="plan-badge">FREE</div>
+              <div class="price-section">
+                <span class="currency">$</span>
+                <span class="price">0</span>
+              </div>
+              <p class="plan-description">
+                We provide complete features and certainly no less competitive
+                with other video applications
+              </p>
+              <hr class="plan-divider" />
+              <div class="plan-features">
+                <p class="feature-text mb-4">
+                  Interdum et malesuada fames ac ante ipsum primis in
+                  faucibus.
+                </p>
+              </div>
+              <a href="#" class="choose-btn choose-btn-outline text-decoration-none">CHOOSE PLAN</a>
+            </div>
+          </div>
+
+          <!-- Best Value Plan -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="pricing-card best-value-plan py-5 px-1">
+              <div class="value-plan-box mx-4">
+                <h3 class="best-value-badge fw-bold">BEST VALUE</h3>
+                <div class="price-section">
+                  <span class="currency">$</span>
+                  <span class="price fs-1 fw-bold">10</span>
+                </div>
+              </div>
+              <p class="plan-description mb-5">
+                We provide complete features and certainly no less competitive
+                with other video applications
+              </p>
+              <hr class="plan-divider" />
+              <div class="plan-features">
+                <p class="feature-text mb-4">
+                  Interdum et malesuada fames ac ante ipsum primis in
+                  faucibus.
+                </p>
+              </div>
+              <a href="#" class="choose-btn choose-btn-filled text-decoration-none">CHOOSE PLAN</a>
+            </div>
+          </div>
+
+          <!-- Pro Plan -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="pricing-card pro-plan py-5 px-1">
+              <div class="plan-badge pro-badge">PRO</div>
+              <div class="price-section">
+                <span class="currency">$</span>
+                <span class="price">20</span>
+              </div>
+              <p class="plan-description">
+                We provide complete features and certainly no less competitive
+                with other video applications
+              </p>
+              <hr class="plan-divider" />
+              <div class="plan-features">
+                <p class="feature-text mb-4">
+                  Interdum et malesuada fames ac ante ipsum primis in
+                  faucibus.
+                </p>
+              </div>
+              <a href="#" class="choose-btn choose-btn-outline text-decoration-none">CHOOSE PLAN</a>
+            </div>
+          </div>
+
+          <!-- VIP Plan -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="pricing-card vip-plan py-5 px-1">
+              <div class="plan-badge vip-badge">VIP</div>
+              <div class="price-section">
+                <span class="currency">$</span>
+                <span class="price">30</span>
+              </div>
+              <p class="plan-description">
+                We provide complete features and certainly no less competitive
+                with other video applications
+              </p>
+              <hr class="plan-divider" />
+              <div class="plan-features">
+                <p class="feature-text mb-4">
+                  Interdum et malesuada fames ac ante ipsum primis in
+                  faucibus.
+                </p>
+              </div>
+              <a href="#" class="choose-btn choose-btn-outline text-decoration-none">CHOOSE PLAN</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Problem - plus icon not aligned ================ -->
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Left part of faq -->
+          <div class="col-12 col-lg-5 pe-lg-5">
+            <div class="mb-5">
+              <h2 class="display-4 fw-bold text-dark mb-4 lh-1">
+                Frequently<br />
+                asked<br />
+                questions
+              </h2>
+
+              <!-- short faq part -->
+              <div class="d-grid gap-3 mt-5">
+                <a href="#"
+                  class="btn btn-purple-gradient text-black fw-bold py-3 px-4 rounded-4 d-flex align-items-center justify-content-between">
+                  <span>Visit FAQ center</span>
+                  <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+
+                <a href="#"
+                  class="btn btn-blue-gradient text-black fw-bold py-3 px-4 rounded-4 d-flex align-items-center justify-content-between">
+                  <span>Visit our blog</span>
+                  <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+
+                <a href="#"
+                  class="btn btn-cyan-gradient text-black fw-bold py-3 px-4 rounded-4 d-flex align-items-center justify-content-between">
+                  <span>Ask for more help</span>
+                  <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================================== Problem - plus icon not aligned ================ -->
+
+          <!-- Right faq part -->
+          <div class="col-12 col-lg-7 right-faq-part">
+            <!-- FAQ Item 1 -->
+            <div class="accordion-item d-flex border-0 faq-bg-color faq-bg-1">
+              <span class="display-6 fw-bold number-purple me-4">01</span>
+              <div>
+                <div class="headline-icon d-flex justify-content-between align-items-center">
+                  <h2 class="siz26 align-h2">
+                    Alright, but what exactly do you do?
+                  </h2>
+                  <figure>
+                    <img src="./img/plus-black.png" alt="icon" />
+                  </figure>
+                </div>
+                <p>
+                  As a creative agency we work with you to develop solutions
+                  to address your brand needs. That includes various aspects
+                  of brand planning and strategy, marketing and design.
+                </p>
+              </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+
+            <div class="accordion-item d-flex border-0 faq-bg-color">
+              <div class="headline-icon d-flex justify-content-between align-items-center pe-5 w-100">
+                <p class="display-6 fw-bold number-purple me-4">02</p>
+
+                <h2 class="fs-4 fw-bold w-70">
+                  I don't need a brand strategist but I need help executing
+                  an upcoming campaign. Can we still work together?
+                </h2>
+                <figure class="ms-auto">
+                  <img src="./img/plus-white.png" alt="icon" />
+                </figure>
+              </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+
+            <div class="accordion-item d-flex border-0 faq-bg-color">
+              <div class="headline-icon d-flex justify-content-between align-items-center pe-5 w-100">
+                <p class="display-6 fw-bold number-purple me-4">03</p>
+                <h2 class="fs-4 fw-bold w-70">Are your rates competitive?</h2>
+                <figure class="ms-auto">
+                  <img src="./img/plus-white.png" alt="icon" />
+                </figure>
+              </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+
+            <div class="accordion-item d-flex border-0 faq-bg-color">
+              <div class="headline-icon d-flex justify-content-between align-items-center pe-5 w-100">
+                <p class="display-6 fw-bold number-purple me-4">04</p>
+                <h2 class="fs-4 fw-bold w-70">
+                  Why do you have a monthly project cap?
+                </h2>
+                <figure class="ms-auto">
+                  <img src="./img/plus-white.png" alt="icon" class="img-fluid" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer part -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Brand & Description -->
+          <div class="col-12 col-sm-6 col-md-3 col-lg-6 text-sm-center text-lg-start">
+            <figure>
+              <img src="./img/logo.png" alt="logo" class="img-fluid" />
+            </figure>
+            <p class="small width-450">
+              The easy way to create stunning videos, add subtitles and grow
+              your audience.
+            </p>
+
+            <!-- Icons -->
+            <div class="col-12 d-flex align-items-start">
+              <div class="d-flex gap-3">
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 col-lg-2 text-sm-center text-lg-start">
+            <h6 class="fw-bold mb-3 siz24">Resources</h6>
+            <ul class="list-unstyled small">
+              <li><a href="#">VIDO Blog</a></li>
+              <li><a href="#">Articles</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 col-lg-2 text-sm-center text-lg-start">
+            <h6 class="fw-bold mb-3 siz24">Company</h6>
+            <ul class="list-unstyled small">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Contact Support</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-3 col-lg-2 text-sm-center text-lg-start">
+            <h6 class="fw-bold mb-3 siz24">Product</h6>
+            <ul class="list-unstyled small">
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="row mt-5 align-items-center">
+          <div class="col-6">
+            <small class="text-muted"><a href="#">@Plio</a></small>
+          </div>
+          <div class="col-6 text-end">
+            <a href="#" class="footer-link small me-4">Privacy Policy</a>
+            <a href="#" class="footer-link small">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+    integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
